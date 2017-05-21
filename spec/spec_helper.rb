@@ -1,9 +1,7 @@
 require "bundler/setup"
 require "price_composer"
-require "coveralls"
-
 Coveralls.wear!
-
+require "coveralls"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
